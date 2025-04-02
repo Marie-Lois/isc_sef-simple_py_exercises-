@@ -1,0 +1,5 @@
+favorites = ["Creme Brulee", "Apple pie", "Churros", "Tiramisu", "Chocolate cake"]
+count = 0
+while count < len(favorites):
+    print("One of my favorites is ", favorites[count])
+    count += 1
