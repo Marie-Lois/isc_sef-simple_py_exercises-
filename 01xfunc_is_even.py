@@ -1,6 +1,6 @@
 def is_even(arr):
     if not arr:
-        raise ValueError("This input array cannot be empty")
+        print("This input array cannot be empty")
     even_count = 0
     for num in arr:
         if num % 2 == 0:
